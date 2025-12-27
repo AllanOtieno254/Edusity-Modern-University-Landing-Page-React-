@@ -3,9 +3,12 @@
 Edusity is a modern, responsive university landing page built with **React**.  
 It demonstrates smooth scrolling navigation, dynamic UI sections, and a fully functional contact form using third-party integrations.
 
-![Uploading home.png…]()
+<img width="1920" height="1080" alt="home" src="https://github.com/user-attachments/assets/985d267e-88b8-4920-bae2-771e7b874ed6" />
 
 <img width="1920" height="1080" alt="test and cont" src="https://github.com/user-attachments/assets/97e522ab-952a-4ba1-aae8-bdba4a436020" />
+
+
+
 
 ---
 
