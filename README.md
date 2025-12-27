@@ -1,21 +1,19 @@
-## React commands
-1. npm create vite@latest
-2. npm run dev for running application
-3. npm run build for hosting
-4. npm i react-scroll for installing scrolling dependencies
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
 # 🎓 Edusity – Modern University Landing Page (React)
 
 Edusity is a modern, responsive university landing page built with **React**.  
 It demonstrates smooth scrolling navigation, dynamic UI sections, and a fully functional contact form using third-party integrations.
 
+![Uploading home.png…]()
+
+<img width="1920" height="1080" alt="test and cont" src="https://github.com/user-attachments/assets/97e522ab-952a-4ba1-aae8-bdba4a436020" />
+
 ---
+
+## React commands
+1. npm create vite@latest
+2. npm run dev for running application
+3. npm run build for hosting
+4. npm i react-scroll for installing scrolling dependencies
 
 ## 🚀 Live Features Overview
 
