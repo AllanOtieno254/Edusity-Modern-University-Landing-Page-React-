@@ -1,14 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
 ## React commands
 1. npm create vite@latest
 2. npm run dev for running application
@@ -42,8 +31,34 @@ It demonstrates smooth scrolling navigation, dynamic UI sections, and a fully fu
 
 This project relies on **two critical external services**:
 
-1. **React Scroll** – for smooth navigation between sections  
-2. **Web3Forms** – for handling contact form submissions securely
+1. **React Scroll** – for smooth navigation between sections: https://www.npmjs.com/package/react-scroll
+   <li><Link to="programs" smooth={true} offset={-260} duration={500}>Program</Link></li>
+   
+3. **Web3Forms** – for handling contact form submissions securely : https://docs.web3forms.com/how-to-guides/js-frameworks/react-js/simple-react-contact-form   and https://app.web3forms.com/forms
+   const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
 
 These are explained in detail below.
 
