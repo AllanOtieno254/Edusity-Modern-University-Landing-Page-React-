@@ -15,7 +15,7 @@ It demonstrates smooth scrolling navigation, dynamic UI sections, and a fully fu
 ## React commands
 1. npm create vite@latest
 2. npm run dev for running application
-3. npm run build for hosting
+3. npm run build for hosting 
 4. npm i react-scroll for installing scrolling dependencies
 
 ## 🚀 Live Features Overview
