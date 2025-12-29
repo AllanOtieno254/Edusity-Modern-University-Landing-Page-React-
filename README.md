@@ -21,7 +21,7 @@ It demonstrates smooth scrolling navigation, dynamic UI sections, and a fully fu
 ## 🚀 Live Features Overview
 
 - Smooth scrolling navigation (single-page experience)
-- Sticky navbar with mobile menu
+- Sticky navbar with mobile menu 
 - Animated testimonials slider
 - Fully functional contact form (no backend required)
 - Responsive design for all screen sizes
